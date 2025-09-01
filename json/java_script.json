@@ -1,0 +1,151 @@
+{"javascript questions":[
+  {
+    "question": "ما هو نوع البيانات الناتج عن التعبير typeof null في JavaScript؟",
+    "choices": ["object", "null", "undefined", "string"],
+    "answer": "object"
+  },
+  {
+    "question": "أي كلمة مفتاحية تُستخدم لتعريف متغير يمكن إعادة تعيينه؟",
+    "choices": ["let", "const", "var", "static"],
+    "answer": "let"
+  },
+  {
+    "question": "ما هي القيمة الافتراضية للمتغير الذي لم يتم تعيينه؟",
+    "choices": ["undefined", "null", "0", "false"],
+    "answer": "undefined"
+  },
+  {
+    "question": "ما هي نتيجة 2 + '2' في JavaScript؟",
+    "choices": ["'22'", "4", "NaN", "undefined"],
+    "answer": "'22'"
+  },
+  {
+    "question": "أي دالة في JavaScript تحول النص إلى عدد صحيح؟",
+    "choices": ["parseInt()", "parseFloat()", "Number()", "toString()"],
+    "answer": "parseInt()"
+  },
+  {
+    "question": "أي طريقة تستخدم لإضافة عنصر في نهاية المصفوفة؟",
+    "choices": ["push()", "pop()", "shift()", "unshift()"],
+    "answer": "push()"
+  },
+  {
+    "question": "ما هو الفرق بين == و === في JavaScript؟",
+    "choices": ["== يقارن بالقيمة فقط و=== يقارن بالقيمة والنوع", "لا يوجد فرق", "=== أبطأ", "== يقارن بالنوع فقط"],
+    "answer": "== يقارن بالقيمة فقط و=== يقارن بالقيمة والنوع"
+  },
+  {
+    "question": "أي كائن في JavaScript يمثل تاريخ ووقت؟",
+    "choices": ["Date", "Time", "Clock", "Moment"],
+    "answer": "Date"
+  },
+  {
+    "question": "أي حدث يستخدم عند النقر على عنصر HTML؟",
+    "choices": ["onclick", "onchange", "onhover", "onsubmit"],
+    "answer": "onclick"
+  },
+  {
+    "question": "ما هو ناتج '5' - 2 في JavaScript؟",
+    "choices": ["3", "'3'", "NaN", "undefined"],
+    "answer": "3"
+  },
+  {
+    "question": "أي طريقة في المصفوفات تُعيد مصفوفة جديدة تحتوي على القيم التي تحقق شرط معين؟",
+    "choices": ["filter()", "map()", "forEach()", "reduce()"],
+    "answer": "filter()"
+  },
+  {
+    "question": "ما هو الغرض من الدالة isNaN()؟",
+    "choices": ["التحقق إذا كانت القيمة ليست رقمًا", "تحويل النص إلى رقم", "إرجاع قيمة رقمية", "إنشاء رقم عشوائي"],
+    "answer": "التحقق إذا كانت القيمة ليست رقمًا"
+  },
+  {
+    "question": "أي كلمة مفتاحية تستخدم لتعريف دالة في JavaScript؟",
+    "choices": ["function", "def", "func", "method"],
+    "answer": "function"
+  },
+  {
+    "question": "أي طريقة تحول مصفوفة إلى نص؟",
+    "choices": ["join()", "split()", "concat()", "slice()"],
+    "answer": "join()"
+  },
+  {
+    "question": "ما هو الكائن الجذري في المتصفح؟",
+    "choices": ["window", "document", "navigator", "global"],
+    "answer": "window"
+  },
+  {
+    "question": "ما هي النتيجة: Boolean('') ؟",
+    "choices": ["false", "true", "null", "undefined"],
+    "answer": "false"
+  },
+  {
+    "question": "أي حدث يستخدم عند تغيير قيمة عنصر الإدخال؟",
+    "choices": ["onchange", "onclick", "oninput", "onblur"],
+    "answer": "onchange"
+  },
+  {
+    "question": "ما هي النتيجة: typeof NaN ؟",
+    "choices": ["number", "NaN", "undefined", "object"],
+    "answer": "number"
+  },
+  {
+    "question": "أي دالة تُستخدم لتنفيذ كود بعد فترة زمنية محددة؟",
+    "choices": ["setTimeout()", "setInterval()", "delay()", "timeout()"],
+    "answer": "setTimeout()"
+  },
+  {
+    "question": "أي حلقة تُستخدم للتكرار على خصائص كائن؟",
+    "choices": ["for...in", "for...of", "while", "forEach"],
+    "answer": "for...in"
+  },
+  {
+    "question": "أي طريقة في المصفوفات تنفذ دالة على كل عنصر وتُعيد مصفوفة جديدة؟",
+    "choices": ["map()", "forEach()", "filter()", "reduce()"],
+    "answer": "map()"
+  },
+  {
+    "question": "ما هي النتيجة: '10' == 10 ؟",
+    "choices": ["true", "false", "NaN", "undefined"],
+    "answer": "true"
+  },
+  {
+    "question": "ما هي النتيجة: '10' === 10 ؟",
+    "choices": ["false", "true", "NaN", "undefined"],
+    "answer": "false"
+  },
+  {
+    "question": "أي كائن يمثل وثيقة HTML في JavaScript؟",
+    "choices": ["document", "window", "navigator", "html"],"answer": "document"
+  },
+  {
+    "question": "ما هي النتيجة: 3 + true ؟",
+    "choices": ["4", "'3true'", "NaN", "3"],
+    "answer": "4"
+  },
+  {
+    "question": "أي كلمة مفتاحية تُستخدم لمعالجة الأخطاء؟",
+    "choices": ["try", "catch", "throw", "كل ما سبق"],
+    "answer": "كل ما سبق"
+  },
+  {
+    "question": "ما هي النتيجة: typeof undefined ؟",
+    "choices": ["undefined", "null", "object", "string"],
+    "answer": "undefined"
+  },
+  {
+    "question": "أي طريقة في المصفوفات تُعيد آخر عنصر وتحذفه؟",
+    "choices": ["pop()", "push()", "shift()", "unshift()"],
+    "answer": "pop()"
+  },
+  {
+    "question": "أي طريقة تُستخدم لدمج مصفوفتين؟",
+    "choices": ["concat()", "merge()", "append()", "join()"],
+    "answer": "concat()"
+  },
+  {
+    "question": "أي نوع من القيم يمكن أن تخزنه متغيرات JavaScript؟",
+    "choices": ["أرقام", "نصوص", "كائنات", "كل ما سبق"],
+    "answer": "كل ما سبق"
+  }
+]}

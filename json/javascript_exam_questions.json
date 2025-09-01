@@ -1,0 +1,334 @@
+{
+  "javascript quiz": [
+    {
+      "question": "ما هو نوع البيانات الذي تُرجعه الدالة typeof عندما تستخدم على قيمة '42'؟",
+      "choices": [
+        "number",
+        "string",
+        "boolean",
+        "undefined"
+      ],
+      "answer": "string",
+      "explanation": "القيمة '42' هي سلسلة نصية، لذا typeof '42' تُرجع 'string'."
+    },
+    {
+      "question": "ما نتيجة التعبير: 2 + '2' في JavaScript؟",
+      "choices": [
+        "4",
+        "22",
+        "'4'",
+        "'22'"
+      ],
+      "answer": "'22'",
+      "explanation": "عند الجمع بين رقم وسلسلة، يتم تحويل الرقم إلى سلسلة ويُنفذ الجمع كنص."
+    },
+    {
+      "question": "ما الكلمة المفتاحية التي تُستخدم لتعريف متغير يمكن إعادة تعيين قيمته؟",
+      "choices": [
+        "const",
+        "var",
+        "static",
+        "define"
+      ],
+      "answer": "var",
+      "explanation": "'var' تُستخدم لتعريف متغير يمكن إعادة تعيينه."
+    },
+    {
+      "question": "ما نتيجة التعبير: null == undefined؟",
+      "choices": [
+        "true",
+        "false",
+        "TypeError",
+        "undefined"
+      ],
+      "answer": "true",
+      "explanation": "في المقارنة غير الصارمة ==، null و undefined يُعتبران متساويين."
+    },
+    {
+      "question": "أي من التالي ليس نوع بيانات بدائي في JavaScript؟",
+      "choices": [
+        "string",
+        "number",
+        "object",
+        "boolean"
+      ],
+      "answer": "object",
+      "explanation": "'object' هو نوع غير بدائي."
+    },
+    {
+      "question": "ما هو المخرَج من الكود التالي؟ console.log(typeof NaN);",
+      "choices": [
+        "NaN",
+        "number",
+        "undefined",
+        "object"
+      ],
+      "answer": "number",
+      "explanation": "NaN يُعتبر نوعه 'number' في JavaScript."
+    },
+    {
+      "question": "ما نتيجة: true && false؟",
+      "choices": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "answer": "false",
+      "explanation": "التعبير '&&' يُرجع true فقط إذا كان كلا الطرفين true."
+    },
+    {
+      "question": "ما الكلمة المفتاحية التي تُستخدم لإنشاء دالة؟",
+      "choices": [
+        "def",
+        "function",
+        "func",
+        "lambda"
+      ],
+      "answer": "function",
+      "explanation": "'function' هي الكلمة المفتاحية الصحيحة."
+    },
+    {
+      "question": "ما الفرق بين let و var؟",
+      "choices": [
+        "let تُستخدم داخل الدوال فقط",
+        "var لها نطاق كتلة (block scope)",
+        "let لها نطاق كتلة و var لها نطاق دالة",
+        "لا يوجد فرق"
+      ],
+      "answer": "let لها نطاق كتلة و var لها نطاق دالة",
+      "explanation": "'let' لها نطاق كتلة بينما 'var' لها نطاق دالة."
+    },
+    {
+      "question": "ما هي القيمة الابتدائية للمتغير غير المُعرّف؟",
+      "choices": [
+        "null",
+        "0",
+        "undefined",
+        "false"
+      ],
+      "answer": "undefined",
+      "explanation": "المتغير الذي لم يُعطَ قيمة يأخذ القيمة 'undefined'."
+    },
+    {
+      "question": "ما هو نوع البيانات الذي تُرجعه الدالة typeof عندما تستخدم على قيمة '42'؟",
+      "choices": [
+        "number",
+        "string",
+        "boolean",
+        "undefined"
+      ],
+      "answer": "string",
+      "explanation": "القيمة '42' هي سلسلة نصية، لذا typeof '42' تُرجع 'string'."
+    },
+    {
+      "question": "ما نتيجة التعبير: 2 + '2' في JavaScript؟",
+      "choices": [
+        "4",
+        "22",
+        "'4'",
+        "'22'"
+      ],
+      "answer": "22",
+      "explanation": "عند الجمع بين رقم وسلسلة، يتم تحويل الرقم إلى سلسلة ويُنفذ الجمع كنص."
+    },
+    {
+      "question": "ما الكلمة المفتاحية التي تُستخدم لتعريف متغير يمكن إعادة تعيين قيمته؟",
+      "choices": [
+        "const",
+        "var",
+        "static",
+        "define"
+      ],
+      "answer": "var",
+      "explanation": "'var' تُستخدم لتعريف متغير يمكن إعادة تعيينه."
+    },
+    {
+      "question": "ما نتيجة التعبير: null == undefined؟",
+      "choices": [
+        "true",
+        "false",
+        "TypeError",
+        "undefined"
+      ],
+      "answer": "true",
+      "explanation": "في المقارنة غير الصارمة ==، null و undefined يُعتبران متساويين."
+    },
+    {
+      "question": "أي من التالي ليس نوع بيانات بدائي في JavaScript؟",
+      "choices": [
+        "string",
+        "number",
+        "object",
+        "boolean"
+      ],
+      "answer": "object",
+      "explanation": "'object' هو نوع غير بدائي."
+    },
+    {
+      "question": "ما هو المخرَج من الكود التالي؟ console.log(typeof NaN);",
+      "choices": [
+        "NaN",
+        "number",
+        "undefined",
+        "object"
+      ],
+      "answer": "number",
+      "explanation": "NaN يُعتبر نوعه 'number' في JavaScript."
+    },
+    {
+      "question": "ما نتيجة: true && false؟",
+      "choices": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "answer": "false",
+      "explanation": "التعبير '&&' يُرجع true فقط إذا كان كلا الطرفين true."
+    },
+    {
+      "question": "ما الكلمة المفتاحية التي تُستخدم لإنشاء دالة؟",
+      "choices": [
+        "def",
+        "function",
+        "func",
+        "lambda"
+      ],
+      "answer": "function",
+      "explanation": "'function' هي الكلمة المفتاحية الصحيحة."
+    },
+    {
+      "question": "ما الفرق بين let و var؟",
+      "choices": [
+        "let تُستخدم داخل الدوال فقط",
+        "var لها نطاق كتلة (block scope)",
+        "let لها نطاق كتلة و var لها نطاق دالة",
+        "لا يوجد فرق"
+      ],
+      "answer": "let لها نطاق كتلة و var لها نطاق دالة",
+      "explanation": "'let' لها نطاق كتلة بينما 'var' لها نطاق دالة."
+    },
+    {
+      "question": "ما هي القيمة الابتدائية للمتغير غير المُعرّف؟",
+      "choices": [
+        "null",
+        "0",
+        "undefined",
+        "false"
+      ],
+      "answer": "undefined",
+      "explanation": "المتغير الذي لم يُعطَ قيمة يأخذ القيمة 'undefined'."
+    },
+    {
+      "question": "ما هو نوع البيانات الذي تُرجعه الدالة typeof عندما تستخدم على قيمة '42'؟",
+      "choices": [
+        "number",
+        "string",
+        "boolean",
+        "undefined"
+      ],
+      "answer": "string",
+      "explanation": "القيمة '42' هي سلسلة نصية، لذا typeof '42' تُرجع 'string'."
+    },
+    {
+      "question": "ما نتيجة التعبير: 2 + '2' في JavaScript؟",
+      "choices": [
+        "4",
+        "22",
+        "'4'",
+        "'22'"
+      ],
+      "answer": "22",
+      "explanation": "عند الجمع بين رقم وسلسلة، يتم تحويل الرقم إلى سلسلة ويُنفذ الجمع كنص."
+    },
+    {
+      "question": "ما الكلمة المفتاحية التي تُستخدم لتعريف متغير يمكن إعادة تعيين قيمته؟",
+      "choices": [
+        "const",
+        "var",
+        "static",
+        "define"
+      ],
+      "answer": "var",
+      "explanation": "'var' تُستخدم لتعريف متغير يمكن إعادة تعيينه."
+    },
+    {
+      "question": "ما نتيجة التعبير: null == undefined؟",
+      "choices": [
+        "true",
+        "false",
+        "TypeError",
+        "undefined"
+      ],
+      "answer": "true",
+      "explanation": "في المقارنة غير الصارمة ==، null و undefined يُعتبران متساويين."
+    },
+    {
+      "question": "أي من التالي ليس نوع بيانات بدائي في JavaScript؟",
+      "choices": [
+        "string",
+        "number",
+        "object",
+        "boolean"
+      ],
+      "answer": "object",
+      "explanation": "'object' هو نوع غير بدائي."
+    },
+    {
+      "question": "ما هو المخرَج من الكود التالي؟ console.log(typeof NaN);",
+      "choices": [
+        "NaN",
+        "number",
+        "undefined",
+        "object"
+      ],
+      "answer": "number",
+      "explanation": "NaN يُعتبر نوعه 'number' في JavaScript."
+    },
+    {
+      "question": "ما نتيجة: true && false؟",
+      "choices": [
+        "true",
+        "false",
+        "undefined",
+        "null"
+      ],
+      "answer": "false",
+      "explanation": "التعبير '&&' يُرجع true فقط إذا كان كلا الطرفين true."
+    },
+    {
+      "question": "ما الكلمة المفتاحية التي تُستخدم لإنشاء دالة؟",
+      "choices": [
+        "def",
+        "function",
+        "func",
+        "lambda"
+      ],
+      "answer": "function",
+      "explanation": "'function' هي الكلمة المفتاحية الصحيحة."
+    },
+    {
+      "question": "ما الفرق بين let و var؟",
+      "choices": [
+        "let تُستخدم داخل الدوال فقط",
+        "var لها نطاق كتلة (block scope)",
+        "let لها نطاق كتلة و var لها نطاق دالة",
+        "لا يوجد فرق"
+      ],
+      "answer": "let لها نطاق كتلة و var لها نطاق دالة",
+      "explanation": "'let' لها نطاق كتلة بينما 'var' لها نطاق دالة."
+    },
+    {
+      "question": "ما هي القيمة الابتدائية للمتغير غير المُعرّف؟",
+      "choices": [
+        "null",
+        "0",
+        "undefined",
+        "false"
+      ],
+      "answer": "undefined",
+      "explanation": "المتغير الذي لم يُعطَ قيمة يأخذ القيمة 'undefined'."
+    }
+  ]
+}
