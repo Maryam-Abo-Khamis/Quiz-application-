@@ -23,11 +23,11 @@ let normalMessge= `
         <span></span>
         `      
 let field={
-    'javascript':"/json/java_script.json",
-    'data-analysis':"/json/data_analysis.json",
-    'culture':"/json/culture_public.json",
-    'math':"/json/math_questions.json",
-    'psychology':"/json/psychology_question.json",
+    'javascript':"https://github.com/Maryam-Abo-Khamis/Quiz-application-/blob/main/json/java_script.json",
+    'data-analysis':"https://github.com/Maryam-Abo-Khamis/Quiz-application-/blob/main/json/data_analysis.json",
+    'culture':"https://github.com/Maryam-Abo-Khamis/Quiz-application-/blob/main/json/culture_public.json",
+    'math':"https://github.com/Maryam-Abo-Khamis/Quiz-application-/blob/main/json/math_questions.json",
+    'psychology':"https://github.com/Maryam-Abo-Khamis/Quiz-application-/blob/main/json/psychology_question.json",
 }
 let progSet=setInterval(()=>{
     prog.style.width=(100*follow)/allQ+'%';
