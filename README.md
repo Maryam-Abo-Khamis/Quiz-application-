@@ -1,50 +1,50 @@
-# Quiz Application
+# 🎯 Quiz Application
 
-[Live Demo ↗️](https://maryam-abo-khamis.github.io/Quiz-application-/)
+[🚀 Live Demo](https://maryam-abo-khamis.github.io/Quiz-application-/)
 
-## Table of Contents
+## 📑 Table of Contents
 
-1. [Overview](#overview)  
-2. [Features](#features)  
-3. [How It Works](#how-it-works)  
-4. [Getting Started / Installation](#getting-started--installation)  
-5. [Usage](#usage)  
-6. [Technologies Used](#technologies-used)  
-7. [Future Improvements](#future-improvements)  
-8. [Contributing](#contributing)  
-9. [License](#license)  
-
----
-
-## Overview
-
-This Quiz Application is a simple interactive web quiz platform. Users can select a quiz topic (such as JavaScript, Data Analysis, General Culture, Math, Psychology), answer questions, and submit their responses. The interface is clean and minimal, designed to be straightforward and easy to use.
+1. 📖 [Overview](#overview)  
+2. ✨ [Features](#features)  
+3. ⚙️ [How It Works](#how-it-works)  
+4. 🛠️ [Getting Started / Installation](#getting-started--installation)  
+5. ▶️ [Usage](#usage)  
+6. 💻 [Technologies Used](#technologies-used)  
+7. 🚧 [Future Improvements](#future-improvements)  
+8. 🤝 [Contributing](#contributing)  
+9. 📜 [License](#license)  
 
 ---
 
-## Features
+## 📖 Overview
 
-- **Multiple quiz topics**: choose from several categories (JavaScript, Data Analysis, General Culture, Math, Psychology).  
-- **Simple navigation**: includes buttons like “Back” and “Submit” for moving through the quiz.  
-- **Client-side implementation**: operates entirely in the browser (HTML, CSS, JS) with no server needed.  
-- **Clean, minimal user interface**: low distraction, focus on content.  
+This Quiz Application is a simple interactive web quiz platform. Users can select a quiz topic (such as JavaScript, Data Analysis, General Culture, Math, Psychology), answer questions, and submit their responses.  
+The interface is clean and minimal, designed to be straightforward and easy to use. 🎓
 
 ---
 
-## How It Works
+## ✨ Features
 
-1. On load, the user is presented with a selection of quiz topics.  
-2. The user picks one topic.  
-3. Questions are shown one by one or possibly all at once (depending on design).  
-4. After answering, the user clicks **Submit** to send their choices.  
-5. (Currently) The app shows somewhere or via console/log how many were correct / incorrect (or feedback).  
+- 🧩 **Multiple quiz topics**: JavaScript, Data Analysis, General Culture, Math, Psychology.  
+- 🧭 **Simple navigation**: includes “Back” and “Submit” buttons.  
+- ⚡ **Client-side only**: runs directly in the browser (HTML, CSS, JS).  
+- 🎨 **Minimal user interface**: focus on simplicity and usability.  
 
 ---
 
-## Getting Started / Installation
+## ⚙️ How It Works
+
+1. 📂 Choose a quiz topic.  
+2. 📝 Answer the displayed questions.  
+3. ✅ Click **Submit** to finish.  
+4. 📊 Review feedback or results.  
+
+---
+
+## 🛠️ Getting Started / Installation
 
 To run this application locally:
 
-1. Clone the repository:  
-   ```bash
-   git clone https://github.com/maryam-abo-khamis/Quiz-application-.git
+```bash
+git clone https://github.com/maryam-abo-khamis/Quiz-application-.git
+cd Quiz-application-
