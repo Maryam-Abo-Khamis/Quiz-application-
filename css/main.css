@@ -202,6 +202,6 @@ button select option{
 }
 @media (max-width:800px) {
     .quiz{
-        transform: translate(100px, 0);
+        transform: translate(10px, 0);
     }
 }
