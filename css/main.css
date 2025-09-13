@@ -200,3 +200,8 @@ button select option{
     padding: 2px;
     border-top: 1px solid #7F53F1;
 }
+@media (max-width:800px) {
+    .quiz{
+        transform: translate(100px, 0);
+    }
+}
