@@ -23,11 +23,11 @@ let normalMessge= `
         <span></span>
         `      
 let field={
-    'javascript':"https://github.com/Maryam-Abo-Khamis/Quiz-application-/blob/main/json/java_script.json",
-    'data-analysis':"https://github.com/Maryam-Abo-Khamis/Quiz-application-/blob/main/json/data_analysis.json",
-    'culture':"https://github.com/Maryam-Abo-Khamis/Quiz-application-/blob/main/json/culture_public.json",
-    'math':"https://github.com/Maryam-Abo-Khamis/Quiz-application-/blob/main/json/math_questions.json",
-    'psychology':"https://github.com/Maryam-Abo-Khamis/Quiz-application-/blob/main/json/psychology_question.json",
+    'javascript':"json/java_script.json",
+    'data-analysis':"json/data_analysis.json",
+    'culture':"json/culture_public.json",
+    'math':"json/math_questions.json",
+    'psychology':"json/psychology_question.json",
 }
 let progSet=setInterval(()=>{
     prog.style.width=(100*follow)/allQ+'%';
@@ -60,8 +60,8 @@ function timeFun(){
     let sec=numberTime%60
     time.innerHTML=''
     timeSet=setInterval(()=>{  
-    minutes=minutes<10&&Array.from(minutes.toString()).length<2?minutes+'0':minutes
-    sec=sec<10&&Array.from(sec.toString()).length<2?sec+'0':sec
+    minutes=minutes<10&&Array.from(minutes.toString()).length<2?'0'+minutes:minutes
+    sec=sec<10&&Array.from(sec.toString()).length<2?'0'+sec:sec
     time.innerHTML=minutes+":"+sec
     sec--;
     if(sec<0){
@@ -263,7 +263,7 @@ function showResult(count,pass){
         count.appendChild(div)
         skip.innerHTML='See your Answer'
         skip.classList.remove('green');
-    },1000)
+    },10000)
 
 }
 function matchSolotion(studentAnswer,correctAnswer){
@@ -308,7 +308,7 @@ function getResult(message){
     },1000)
     setTimeout(()=>{
         clearInterval(t)
-    },1000)
+    },10000)
     indexes=proccesAnswers()
     solotion=getSolotion()
     let pass=matchSolotion(proccesAnswers(),getSolotion())
